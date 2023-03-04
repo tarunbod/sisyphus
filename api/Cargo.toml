@@ -1,0 +1,9 @@
+[package]
+name = "api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hmac = "0.12.1"
+scrypt = "0.10.0"
+sha2 = "0.10.6"
