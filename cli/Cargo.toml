@@ -1,0 +1,14 @@
+[package]
+name = "sisyphus-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arboard = "3.2.0"
+clap = { version = "4.1.8", features = ["derive"] }
+rpassword = "7.2.0"
+sisyphus-api = { path = "../api" }
+
+[[bin]]
+name = "spm"
+path = "src/main.rs"
