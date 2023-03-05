@@ -19,7 +19,7 @@ masterpassword).
 
 1. Clone this repo.
    - `git clone https://github.com/tarunbod/sisyphus.git`
-   - `cd sisyphus`
+   - `cd sisyphus/cli`
 2. Build and install the project with Cargo.
    - `cargo install --path .`
 
